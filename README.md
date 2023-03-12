@@ -96,5 +96,4 @@ const styleString = [...cssSet].join('')
 // use the `styleString` on style tag with id 'css'
 
 ```
-Share your feedbacks to: [cityofbinary@gmail.com] [1]
-[1]: to:cityofbinary@gmail.com
+Share your feedbacks to: cityofbinary@gmail.com

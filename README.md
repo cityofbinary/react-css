@@ -1,10 +1,10 @@
-# react-css
+# react-css-injector
 
 CSS Injector for react components to use with css-loader
 
 #### Installation
 
-    $ npm i react-css --save
+    $ npm i react-css-injector --save
     
 #### Usage
 
@@ -37,7 +37,7 @@ Your component:
 
 ```javascript
 import styles from './foo.css';
-import withCss from 'react-css';
+import withCss from 'react-css-injector';
 // Foo.js
 class Foo extends Component {
     render(){
@@ -50,7 +50,7 @@ export default withCss(styles)(Foo);
 // hooks
 
 import styles from './foo.css';
-import { useCss } from 'react-css';
+import { useCss } from 'react-css-injector';
 
 // Foo.js
 
@@ -80,7 +80,7 @@ withCss(styles1, styles2)(Foo);
 For server-side-rendering
 
 ```javascript
-import {CSSProvider} from 'react-css';
+import {CSSProvider} from 'react-css-injector';
 
 // ...
 const cssSet = new Set();

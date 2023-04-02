@@ -1,8 +1,8 @@
 {
   "name": "react-css-injector",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "CSS Injector for react components to use with css-loader",
-  "main": "index.js",
+  "main": "dist/index.js",
   "repository": "https://github.com/cityofbinary/react-css-injector.git",
   "author": "cityofbinary <cityofbinary@gmail.com>",
   "license": "MIT",
@@ -16,5 +16,8 @@
   ],
   "bugs": {
     "url": "https://github.com/cityofbinary/react-css-injector/issues"
+  },
+  "dependencies": {
+    "react": ">16.8.0"
   }
 }

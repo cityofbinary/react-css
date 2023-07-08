@@ -1,7 +1,7 @@
 {
   "name": "react-css-injector",
-  "version": "1.0.2",
-  "description": "CSS Injector for react components to use with css-loader",
+  "version": "1.1.0",
+  "description": "react-css-injector is a Javascript library used for injecting CSS into React components with the use of css-loader",
   "main": "dist/index.js",
   "repository": "https://github.com/cityofbinary/react-css-injector.git",
   "author": "cityofbinary <cityofbinary@gmail.com>",
@@ -12,7 +12,9 @@
     "react",
     "css",
     "styles",
-    "css-loader"
+    "css-loader",
+    "global css loader",
+    "css injector"
   ],
   "bugs": {
     "url": "https://github.com/cityofbinary/react-css-injector/issues"
